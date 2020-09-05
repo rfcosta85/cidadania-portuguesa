@@ -1,0 +1,164 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+
+:root
+{
+
+    --main_text_color: rgb(139, 139, 139);
+
+}
+
+body
+{
+
+    background-color: whitesmoke;    
+
+}
+
+
+header.logo
+{
+
+    margin-top: -3.2%;
+    height: 100vh;
+    background-image: url(/main_documents/background_images/lisbon.jpg);
+    margin-left: -1%;
+    margin-right: -0.6%;
+
+}
+
+nav
+{
+    margin-top: -1.5%;
+    background-color: rgba(245, 245, 245, 0.884);
+    height: 5vh;
+    width: 30%;
+    margin-left: 1%;
+    border-radius: 2%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.089);
+}
+
+h1.logo
+{
+
+    padding-top: 1.5%;
+    font-size: 3.9rem;
+    color: rgb(189, 42, 42);
+
+}
+
+h1.logo, p.logo
+{
+
+    font-family: 'Fredericka the Great', cursive; 
+    text-align: center;       
+
+}
+
+p.logo
+{
+
+    font-size: 1.8rem;
+    font-weight: bolder;
+    color: rgb(189, 42, 42);
+    margin-top: -2%;
+    text-shadow: 2px 2px 2px rgba(41, 70, 38, 0.185);
+
+}
+
+div.presentation
+{
+
+    background-color: rgba(64, 168, 116, 0.671);
+    width: 50%;
+    height: 45vh;
+    margin: auto;
+    border-radius: 2%;
+
+}
+
+h2#presentation
+{
+
+    text-align: center;
+    padding-top: 2.0%;
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: 2.5rem;
+
+}
+
+p#presentation
+{
+
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: bolder;
+    color: whitesmoke;
+    padding-top: 2.0%;
+
+}
+
+div.main
+{
+
+    width: 60%;
+    margin: auto;
+
+}
+
+h2.main
+{
+
+    text-align: center;
+    font-size: 1.8rem;
+    color: rgb(189, 42, 42);
+
+}
+
+p#main
+{
+
+    text-align: center;
+    text-justify: auto;
+    text-indent: 1%;
+    font-size: 1.3rem;
+    color: var(--main_text_color);
+
+}
+
+footer
+{
+
+    background-color: rgb(189, 42, 42);
+    margin-left: -1%;
+    margin-right: -0.6%;
+    height: 5vh;
+
+}
+
+p.footer
+{
+
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.2rem;
+    padding-top: 0.5%;
+    font-weight: bolder;
+}
+
+a.footer
+{
+
+    color: whitesmoke;
+    text-decoration: none;
+
+}
+
+a.footer:hover
+{
+
+    text-decoration: underline;
+    color: rgb(64, 168, 116);
+
+}
