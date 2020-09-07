@@ -27,15 +27,23 @@ header.logo
 
 }
 
-nav
+div.main
 {
-    margin-top: -1.5%;
-    background-color: rgba(245, 245, 245, 0.884);
-    height: 5vh;
-    width: 30%;
-    margin-left: 1%;
-    border-radius: 2%;
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.089);
+
+    width: 60%;
+    margin: auto;
+
+}
+
+div.form
+{
+
+    height: 80vh;
+    background-color: rgba(129, 129, 129, 0.356);
+    margin-left: -1%;
+    margin-right: -0.6%;
+    margin-top: 5%;
+
 }
 
 h1.logo
@@ -99,14 +107,6 @@ p#presentation
 
 }
 
-div.main
-{
-
-    width: 60%;
-    margin: auto;
-
-}
-
 h2.main
 {
 
@@ -126,6 +126,81 @@ p#main
     color: var(--main_text_color);
 
 }
+
+h1.form
+{
+
+    text-align: center;
+    padding-top: 1.5%;
+    color: rgb(189, 42, 42);
+
+}
+
+form
+{
+
+    width: 60%;
+    height: 58vh;
+    margin: auto;
+    padding-top: 0%;
+    background-color: whitesmoke;    
+
+}
+
+p#form
+{
+
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 2%;
+    margin-top: 0%;
+    padding-top: 1%;  
+    display: grid;
+
+}
+
+
+input#form
+{
+
+    width: 60%;
+    height: 3vh;
+    font-size: 1rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.192);
+
+}
+
+select#form
+{
+
+    width: 60%;
+    height: 5vh;
+    font-size: 1rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.192);
+
+}
+
+input.send
+{
+    
+    width: 20%;
+    height: 5vh;
+    font-size: 1rem;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.192);
+
+}
+
+p.send
+{
+
+    text-align: center;
+    font-size: 1.5rem;    
+    padding-left: 2%;
+    margin-top: 5%;
+    padding-top: 2%;
+
+}
+
 
 footer
 {
