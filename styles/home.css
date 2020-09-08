@@ -140,7 +140,7 @@ form
 {
 
     width: 60%;
-    height: 58vh;
+    height: 65vh;
     margin: auto;
     padding-top: 0%;
     background-color: whitesmoke;    
@@ -196,16 +196,167 @@ p.send
     text-align: center;
     font-size: 1.5rem;    
     padding-left: 2%;
-    margin-top: 5%;
+    margin-top: 0%;
     padding-top: 2%;
 
+}
+
+div.obtencao
+{
+
+    height: 100vh;
+    background-image: url('/main_documents/background_images/porto.jpg');
+    margin-left: -1%;
+    margin-right: -0.6%;
+    margin-top: -1.6%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+div.porto_text
+{
+
+    width: 80%;
+    height: 70vh;
+    background-color: rgba(214, 214, 214, 0.836);
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 2%;
+
+}
+
+h1.obtencao
+{
+
+    text-align: center;
+    padding-top: 2%;
+    color: rgb(189, 42, 42);
+    font-weight: bolder;
+
+}
+
+p#porto
+{
+
+    text-align: center;
+    text-justify: auto;
+    text-indent: 1%;
+    font-size: 1.3rem;
+    padding-top: 2.5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: rgb(71, 71, 71);
+
+}
+
+div.credit
+{
+
+    padding-left: 10%;
+    padding-top: 1%;
+
+
+}
+
+p.credit
+{
+
+    font-weight: bolder;
+    color: rgba(255, 255, 255, 0.788);
+
+}
+
+a#credit
+{
+
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.788);
+
+}
+
+a#credit:hover
+{
+
+    text-decoration: underline;
+    color: rgb(189, 42, 42);
+
+}
+
+div.contato
+{
+
+    width: 60%;
+    height: 50vh;
+    margin: auto;
+
+}
+
+h3.contato
+{
+
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgb(189, 42, 42);
+    margin-top: 5%;
+    font-weight: bolder;
+
+}
+
+h2.contato
+{
+
+    text-align: center;
+    font-size: 1.9rem;
+    color: rgba(0, 0, 0, 0.842);
+    margin-top: -1%;
+    font-weight: bolder;
+
+}
+
+p.contato
+{
+
+    text-align: center;
+    color: var(--main_text_color);
+    font-size: 1.4rem;
+    font-weight: bolder;
+
+}
+
+div.contato_form
+{
+
+    background-color: rgb(189, 42, 42);      
+    width: 80%;
+    height: 10vh;
+    margin: auto;
+
+}
+
+div.contato_form:hover
+{
+
+    background-color: rgb(107, 26, 26);     
+
+}
+
+h2.contato_form
+{
+    
+    text-align: center;   
+    color: whitesmoke;
+    font-size: 1.8rem;
+    margin-top: 8%;
+    padding-top: 2.5%;
 }
 
 
 footer
 {
-
-    background-color: rgb(189, 42, 42);
+    
     margin-left: -1%;
     margin-right: -0.6%;
     height: 5vh;
@@ -216,7 +367,7 @@ p.footer
 {
 
     text-align: center;
-    color: whitesmoke;
+    color: var(--main_text_color);
     font-size: 1.2rem;
     padding-top: 0.5%;
     font-weight: bolder;
@@ -225,7 +376,7 @@ p.footer
 a.footer
 {
 
-    color: whitesmoke;
+    color: var(--main_text_color);
     text-decoration: none;
 
 }
